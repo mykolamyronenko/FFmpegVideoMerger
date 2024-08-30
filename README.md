@@ -14,23 +14,34 @@ FFmpeg Video Merger is a Python application that allows you to merge multiple vi
 - The following Python libraries:
   - `customtkinter`
   - `CTkMessagebox`
-  
+
+
 ## Installation
 
-1. Clone the repository:
-    ```
-    git clone https://github.com/mykolamyronenko/FFmpegVideoMerger.git
-    cd FFmpegVideoMerger
-    ```
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/mykolamyronenko/FFmpegVideoMerger.git
+   cd FFmpegVideoMerger
+   ```
 
-2. Create a virtual environment and activate it:
-    ```
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+2. **Create a virtual environment:**
+   ```
+   python -m venv .venv
+   ```
 
-3. Install the required packages:
-    ```
+3. **Activate the virtual environment:**
+   - On Windows:
+      ```
+      .venv\Scripts\activate
+      ```
+
+   - On macOS/Linux:
+      ```
+      source .venv/bin/activate
+      ```
+   
+4. **Activate the virtual environment:**
+    ```  
     pip install -r requirements.txt
     ```
 
