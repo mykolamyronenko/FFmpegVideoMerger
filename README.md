@@ -1,6 +1,6 @@
 # FFmpeg Video Merger
 
-FFmpeg Video Merger is a Python application that allows you to merge multiple video files into a single output file using FFmpeg in GUI.
+FFmpeg Video Merger is a Python GUI wrapper for FFmpeg, that allows you to merge multiple video files into a single output file.
 
 ## Features
 
