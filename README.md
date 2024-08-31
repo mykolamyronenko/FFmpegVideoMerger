@@ -45,7 +45,14 @@ FFmpeg Video Merger is a Python application that allows you to merge multiple vi
     pip install -r requirements.txt
     ```
 
-4. Ensure FFmpeg and FFprobe are installed and accessible in your system's PATH.
+4. Ensure FFmpeg and FFprobe are installed and accessible in your system's PATH:
+   ```
+   ffmpeg -version
+   ```
+
+   ```
+   ffprobe -version
+   ```
 
 ## Usage
 
